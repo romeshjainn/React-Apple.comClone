@@ -1,0 +1,18 @@
+header{
+    background-color: white;
+    padding: 0px 3%;
+    display: flex;
+    justify-content: center;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header ul li{
+    color: black;
+    font-size: .8rem;
+    list-style-type: none;
+}
