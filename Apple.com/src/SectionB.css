@@ -1,0 +1,25 @@
+.sectionb {
+    padding-top: 2rem;
+  background: #f2f2f2;
+  border: 2px solid black;
+  color: black;
+}
+.sectionb h2{
+    font-size: 3.7rem;
+}
+.sectionbh4{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.sectionbdiv {
+  display: flex;
+}
+.sectionbdiv button{
+    font-size: 1.1rem;
+    padding: .4rem;
+}
+.macbook{
+    object-fit: cover;
+    width: 90%;
+    padding-bottom: 2rem;
+}
