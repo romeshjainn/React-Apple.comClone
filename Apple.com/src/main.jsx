@@ -9,6 +9,7 @@ import { SectionD } from './SectionD';
 import { SectionE } from './SectionE';
 import { Footer1 } from './Footer';
 import { Footer2 } from './Footer2';
+import { Footer3 } from './Footer3';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SectionE />
     <Footer1 />
     <Footer2 />
+    <Footer3 />
   </React.StrictMode>
 );
 
