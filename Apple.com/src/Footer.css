@@ -1,0 +1,11 @@
+.f1{
+    display: flex;
+    padding: 0px 4.2rem;
+    padding-top: 5rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+.f1 p{
+    font-size: .9rem;
+    color: rgb(87, 83, 83);
+}

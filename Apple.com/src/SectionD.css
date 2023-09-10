@@ -1,0 +1,10 @@
+.sectiond {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 1rem 0.3rem;
+}
+.sectiond img {
+  width: 100%;
+  /* border: 2px solid yellow; */
+}

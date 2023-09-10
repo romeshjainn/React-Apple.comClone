@@ -1,0 +1,16 @@
+.sectionc{
+    color: black;
+    background-color: #f2f2f2;
+}
+.sectionc h2{
+    font-size: 4rem;
+}
+.sectionc h4{
+    font-size: 2.6rem;
+}
+.sectionc div button{
+    font-size: 1.3rem;
+}
+.sectionc img{
+width: 80%;
+}
