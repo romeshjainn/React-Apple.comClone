@@ -1,0 +1,44 @@
+.pregnancy {
+  display: flex;
+  padding: 1rem 0px;
+}
+.preg {
+  width: 35%;
+  font-size: 0.9rem;
+  color: grey;
+  display: grid;
+  place-items: center;
+  font-weight: 550;
+}
+.preOptions{
+    display: flex;
+    width: 65%;
+    gap: .6rem;
+    flex-direction: column;
+}
+.pregSelect{
+    display: flex;
+}
+.pregSelect-a{
+    display: flex;
+}
+.preOP{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.pregOP2 h3{
+    color: rgb(104,96,96);
+    font-size: 1.1rem;
+}
+.pregOP2 p{
+    color: grey;
+    font-size: .8rem;
+}
+.pregOP2{
+    width: 75%;
+}
+.in{
+    height: 1.8rem;
+    width: 1.8rem;
+}

@@ -1,0 +1,15 @@
+.sub{
+    padding-top:1.5rem ;
+    padding-bottom: 2rem;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+button{
+    padding: .7rem .9rem;
+    border-radius: 20px;
+    background-color: rgb(208, 208, 15);
+    border: none;
+    outline: none;
+    color: white;
+}

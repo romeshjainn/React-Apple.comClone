@@ -8,6 +8,7 @@ import { FamilyHistory } from "./FamilyHistory.jsx";
 import { ActivityLevel } from "./ActivityLevel.jsx";
 import { Diabetes } from "./Diabetes.jsx";
 import { Pregnancy } from "./Pregnancy.jsx";
+import { Submit } from "./Submit.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <FamilyHistory/>
     <ActivityLevel/>
     <Diabetes/>
-    <Pregnancy/>
+    <Pregnancy />
+    <Submit />
   </React.StrictMode>
 );
