@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./HW.css";
 
 export const HW = () => {
+  // const [height, changeHeight] = useState(0);
+
   return (
     <div className="height-weight">
       <div className="HW">
@@ -10,7 +12,13 @@ export const HW = () => {
       </div>
       <div className="hwData">
         <div className="height">
-          <input className="input-a" placeholder="0" type="number" />
+          <input
+            className="input-a"
+            placeholder="0"
+            type="number"
+            // value={height}
+            // onChange={(e) => changeHeight(e.target.value)} 
+          />
           <p>ft.</p>
           <input className="input-b" placeholder="00" type="number" />
           <p>in.</p>
@@ -21,6 +29,7 @@ export const HW = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

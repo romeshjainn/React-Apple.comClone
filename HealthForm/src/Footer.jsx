@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className="footer">
       <div>
         <p>Gender : </p>
-        <p>Height :</p>
+        <p>Height : </p>
         <p>Weight : </p>
         <p>Family History : </p>
         <p>Activity Level : </p>

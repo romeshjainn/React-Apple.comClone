@@ -18,9 +18,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <FormAbout />
     <YourGender />
     <HW />
-    <FamilyHistory/>
-    <ActivityLevel/>
-    <Diabetes/>
+    <FamilyHistory />
+    <ActivityLevel />
+    <Diabetes />
     <Pregnancy />
     {/* <Submit /> */}
     <Footer />
