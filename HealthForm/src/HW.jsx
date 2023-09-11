@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom/client";
 import "./HW.css";
 
 export const HW = () => {
@@ -7,7 +8,6 @@ export const HW = () => {
       <div className="HW">
         <h4>HEIGHT & WEIGHT</h4>
       </div>
-
       <div className="hwData">
         <div className="height">
           <input className="input-a" placeholder="0" type="number" />
@@ -23,3 +23,4 @@ export const HW = () => {
     </div>
   );
 };
+
