@@ -1,0 +1,14 @@
+.formabout{
+    padding: 1rem .5rem;
+    text-align: center;
+}
+.formabout h3{
+    font-weight: 500;
+    color: rgb(104, 96, 96);
+}
+.formabout h5{
+    font-weight: 100;
+    font-size: .93rem;
+    color: rgb(104, 96, 96);
+    margin-top: .5rem;
+}
