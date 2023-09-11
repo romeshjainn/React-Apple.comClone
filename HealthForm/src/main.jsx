@@ -6,6 +6,8 @@ import { YourGender } from "./YourGender.jsx";
 import { HW } from "./HW.jsx";
 import { FamilyHistory } from "./FamilyHistory.jsx";
 import { ActivityLevel } from "./ActivityLevel.jsx";
+import { Diabetes } from "./Diabetes.jsx";
+import { Pregnancy } from "./Pregnancy.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -16,5 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HW />
     <FamilyHistory/>
     <ActivityLevel/>
+    <Diabetes/>
+    <Pregnancy/>
   </React.StrictMode>
 );
