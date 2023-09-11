@@ -1,0 +1,50 @@
+.height-weight{
+    padding: 1rem 0px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.HW{
+    width: 35%;
+     font-size: .9rem;
+    color: grey;
+    font-weight: 550;
+    display: grid;
+    place-items: center;
+    padding: 1rem 0px;
+}
+.hwData{
+    display: flex;
+    gap: 1rem;    
+    width: 65%;
+    align-items: center;
+}
+.height{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+.input-a{
+    width: 3.2rem;
+    text-align: center;
+    aspect-ratio: 1;
+}
+.input-b{
+    text-align: center;
+    height: 3.2rem;
+    width: 4rem;
+}
+.input-c{
+    height: 3.2rem;
+    text-align: center;
+    width: 4.5rem;
+}
+input:nth-child(2){
+    width: 3.6rem;
+    aspect-ratio: 0;
+
+}
+.weight{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}

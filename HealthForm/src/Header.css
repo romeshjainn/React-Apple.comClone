@@ -1,8 +1,9 @@
 .header{
      /* height: 10%; */
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
     flex-direction: column;
+    gap: .3rem;
 }
 .headerA{
     display: flex;

@@ -1,0 +1,37 @@
+.gender{
+    /* background-color: yellow ; */
+    /* border: 1px solid black; */
+    color: black;
+    display: flex;
+    padding: 1rem 0px;
+}
+.yourgender{
+    width: 35%;
+    display: grid;
+    place-items : center;
+}
+.yourgender h4{
+    font-size: .9rem;
+    color: grey;
+    font-weight: 550;
+}
+.selectgender{
+    display: flex;
+    gap: 3rem;
+    padding: .4rem ;
+}
+.selectgender div{
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+}
+
+.selectgender div h6{
+    color: black;
+    font-size: 1rem;
+}
+.selectgender div img{
+    height: 55px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}

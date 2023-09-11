@@ -1,0 +1,43 @@
+ .familyhistory {
+  display: flex;
+  padding: 1rem 0px;
+  /* border: 2px solid black; */
+}
+.fm {
+  width: 35%;
+  font-size: 0.9rem;
+  color: grey;
+  font-weight: 550;
+  display: grid;
+  place-items: center;
+}
+.fmOptions {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.fmOptions-a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.fmOptions-a h4 {
+    color: rgb(104, 96, 96);
+
+}
+.fmOptions-a p {
+  font-size: 0.9rem;
+    color: rgb(104, 96, 96);
+
+}
+.fmOptions-b {
+  display: flex;
+}
+.fmOptions-b div {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 40%;
+  padding: 1rem 0px;
+  gap: 1rem;
+}
