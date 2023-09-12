@@ -8,6 +8,7 @@ import { FamilyHistory } from "./FamilyHistory.jsx";
 import { ActivityLevel } from "./ActivityLevel.jsx";
 import { Diabetes } from "./Diabetes.jsx";
 import { Pregnancy } from "./Pregnancy.jsx";
+import App from "./App"; 
 // import { Submit } from "./Submit.jsx";
 import { Footer } from "./Footer.jsx";
 import "./index.css";
@@ -17,12 +18,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Header />
     <FormAbout />
     <YourGender />
-    <HW />
+    {/* <HW /> */}
+<App />
     <FamilyHistory />
     <ActivityLevel />
     <Diabetes />
     <Pregnancy />
     {/* <Submit /> */}
-    <Footer />
+    {/* <Footer /> */}
   </React.StrictMode>
 );

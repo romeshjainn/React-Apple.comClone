@@ -1,10 +1,7 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
+import React from "react";
 import "./HW.css";
 
-export const HW = () => {
-  // const [height, changeHeight] = useState(0);
-
+export const HW = ({ height, handleHeightChange }) => {
   return (
     <div className="height-weight">
       <div className="HW">
@@ -16,8 +13,8 @@ export const HW = () => {
             className="input-a"
             placeholder="0"
             type="number"
-            // value={height}
-            // onChange={(e) => changeHeight(e.target.value)} 
+            value={height}
+            onChange={handleHeightChange}
           />
           <p>ft.</p>
           <input className="input-b" placeholder="00" type="number" />
@@ -29,7 +26,5 @@ export const HW = () => {
         </div>
       </div>
     </div>
-    
   );
 };
-

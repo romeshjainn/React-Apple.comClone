@@ -1,11 +1,11 @@
-import react from "react";
+import React from "react";
 
-export const Footer = () => {
+export const Footer = ({ newValue }) => {
   return (
     <div className="footer">
       <div>
         <p>Gender : </p>
-        <p>Height : </p>
+        <p>Height : {newValue}</p>
         <p>Weight : </p>
         <p>Family History : </p>
         <p>Activity Level : </p>
