@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="container">
+      <h1>DOM Traversal Example</h1>
+      <ul>
+        <li class="para">Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+<script>
+  function getElementsByClassNameCustom(className, root = document) {
+    var elements = [];
+
+    function traverseDOM(node) {
+      if (node.nodeType === 1 && node.classList.contains(className)) {
+        elements.push(node);
+      }
+
+      for (var i = 0; i < node.childNodes.length; i++) {
+        var child = node.childNodes[i];
+
+        if (child.nodeType === 1) {
+          traverseDOM(child);
+        }
+      }
+    }
+
+    traverseDOM(root);
+    return elements;
+  }
+
+  // Example usage:
+  var elements = getElementsByClassNameCustom("para");
+  console.log(elements);
+</script>
