@@ -14,7 +14,8 @@ import { Footer } from "./Footer.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <>
     <Header />
     <FormAbout />
     <YourGender />
@@ -26,5 +27,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Pregnancy />
     {/* <Submit /> */}
     {/* <Footer /> */}
-  </React.StrictMode>
+  {/* </React.StrictMode > */}
+  </>
 );
