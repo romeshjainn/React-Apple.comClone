@@ -7,8 +7,8 @@ function App() {
 
   const handleHeightChange = (e) => {
     const newValue = e.target.value;
-    console.log(newValue); // Debugging: Log the new value
-    changeHeight(newValue); // Update the height state
+    console.log(newValue); 
+    changeHeight(newValue); 
   };
 
   return (

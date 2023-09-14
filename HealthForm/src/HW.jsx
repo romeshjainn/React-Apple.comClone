@@ -1,11 +1,12 @@
 import React from "react";
 import "./HW.css";
+import { Title } from "./Style";
 
 export const HW = ({ height, handleHeightChange }) => {
   return (
     <div className="height-weight">
       <div className="HW">
-        <h4>HEIGHT & WEIGHT</h4>
+        <Title>HEIGHT & WEIGHT</Title>
       </div>
       <div className="hwData">
         <div className="height">
