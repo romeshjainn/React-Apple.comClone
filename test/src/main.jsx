@@ -7,12 +7,16 @@ import ParentComponent from "./ParentComponent";
 import ChildComponent from "./ChildComponent";
 import { Counter } from "./Counter";
 import { Greet } from "./Greet";
+import { MagicMsg } from "./Color";
+import { ToggleImg } from "./BlackWhite";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ParentComponent />
-    <Counter />
+    {/* <Counter />
     <Greet />
+    <MagicMsg /> */}
+    <ToggleImg />
     {/* <ChildComponent /> */}
 
   </React.StrictMode>

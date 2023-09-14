@@ -1,0 +1,59 @@
+Introduction to React
+
+What is React?
+React's history and evolution.
+Getting Started
+
+Setting up a React development environment.
+Creating your first React component.
+JSX (JavaScript XML) syntax.
+Components
+
+Functional components.
+Class components.
+Props and state.
+Lifecycle methods (for class components).
+Hooks
+
+Introduction to hooks.
+useState hook.
+useEffect hook.
+Custom hooks.
+Component Communication
+
+Passing props.
+Handling events.
+Context API for state management.
+Redux for state management.
+Routing
+
+React Router for client-side routing.
+Forms and User Input
+
+Handling forms in React.
+Controlled vs. uncontrolled components.
+Form validation.
+Styling
+
+CSS-in-JS libraries.
+CSS modules.
+Styled-components.
+State Management
+
+React's built-in state management.
+Using third-party libraries like Redux and Mobx.
+
+hooks
+state
+class component
+function component
+closures
+react 16.8
+stateless component
+uState
+this keyword
+reactive variable 
+lifecyle
+useeffect
+react dom manipulation
+getter setter
