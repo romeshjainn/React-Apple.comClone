@@ -9,6 +9,7 @@ import { Counter } from "./Counter";
 import { Greet } from "./Greet";
 import { MagicMsg } from "./Color";
 import { ToggleImg } from "./BlackWhite";
+import { MutliText } from "./MultiText";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,6 +18,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Greet />
     <MagicMsg /> */}
     <ToggleImg />
+    <ToggleImg />
+    <MutliText />
     {/* <ChildComponent /> */}
 
   </React.StrictMode>
