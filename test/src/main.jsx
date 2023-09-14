@@ -10,17 +10,25 @@ import { Greet } from "./Greet";
 import { MagicMsg } from "./Color";
 import { ToggleImg } from "./BlackWhite";
 import { MutliText } from "./MultiText";
+import { ChangeColor } from "./ChangeColor";
+import { MultiInput } from "./MutliInputs";
+import { BtnClick } from "./BtnClick";
+import { Missile } from "./launchMissile";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ParentComponent />
-    {/* <Counter />
+    <Counter />
     <Greet />
-    <MagicMsg /> */}
+    <MagicMsg />
+    <Missile />
+    <BtnClick />
+    <MultiInput />
+    <ChangeColor />
     <ToggleImg />
     <ToggleImg />
     <MutliText />
-    {/* <ChildComponent /> */}
-
+    <ChangeColor />
+    <ChildComponent />
   </React.StrictMode>
 );

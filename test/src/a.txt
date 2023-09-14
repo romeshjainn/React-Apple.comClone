@@ -1,0 +1,18 @@
+h1 - on
+h2 - on - off
+h3 - on - off
+h4 - on - off
+
+if(h2==on){
+    h1=of
+    h2=of
+    h3=of
+}
+
+const openingTunnel= () =>{
+    if(btn.on)
+      setopenTunnel (!openTunnel)
+   }else
+{
+    launch.off
+}
