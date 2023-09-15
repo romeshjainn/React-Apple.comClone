@@ -17,11 +17,11 @@ import { Missile } from "./launchMissile";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <Missile />
     <ParentComponent />
     <Counter />
     <Greet />
     <MagicMsg />
-    <Missile />
     <BtnClick />
     <MultiInput />
     <ChangeColor />
