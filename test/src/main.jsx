@@ -14,10 +14,14 @@ import { ChangeColor } from "./ChangeColor";
 import { MultiInput } from "./MutliInputs";
 import { BtnClick } from "./BtnClick";
 import { Missile } from "./launchMissile";
+import Misile from "./Chirag";
+import { PapaComponent } from "./PapaComponent";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Missile />
+    <Misile />
+    <PapaComponent/>
+    {/* <Missile />
     <ParentComponent />
     <Counter />
     <Greet />
@@ -29,6 +33,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ToggleImg />
     <MutliText />
     <ChangeColor />
-    <ChildComponent />
+    <ChildComponent /> */}
   </React.StrictMode>
 );
