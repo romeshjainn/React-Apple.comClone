@@ -16,12 +16,22 @@ import { BtnClick } from "./BtnClick";
 import { Missile } from "./launchMissile";
 import Misile from "./Chirag";
 import { PapaComponent } from "./PapaComponent";
+import { UpComp } from "./upComp";
+import { ParentHidden } from "./parentHidden";
+import { ParentChildType } from "./parentChildtype";
+import { NitinParent } from "./nitinParent";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <div style={{ border: "2px solid red" }}>
+      <NitinParent/>
+    </div>
+      <ParentChildType/>
+    <UpComp />
     <Misile />
-    <PapaComponent/>
-    {/* <Missile />
+    <ParentHidden />
+    <PapaComponent />
+    <Missile />
     <ParentComponent />
     <Counter />
     <Greet />
@@ -33,6 +43,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ToggleImg />
     <MutliText />
     <ChangeColor />
-    <ChildComponent /> */}
+    <ChildComponent />
   </React.StrictMode>
 );
