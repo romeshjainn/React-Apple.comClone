@@ -20,13 +20,15 @@ import { UpComp } from "./upComp";
 import { ParentHidden } from "./parentHidden";
 import { ParentChildType } from "./parentChildtype";
 import { NitinParent } from "./nitinParent";
+import { EgParent } from "./egParent";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <div style={{ border: "2px solid red" }}>
-      <NitinParent/>
+      <EgParent />
     </div>
-      <ParentChildType/>
+    <NitinParent />
+    <ParentChildType />
     <UpComp />
     <Misile />
     <ParentHidden />
@@ -40,9 +42,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <MultiInput />
     <ChangeColor />
     <ToggleImg />
-    <ToggleImg />
     <MutliText />
     <ChangeColor />
     <ChildComponent />
+    <ToggleImg />
   </React.StrictMode>
 );

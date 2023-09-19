@@ -8,7 +8,7 @@ export const NitinParent = () => {
     setEmail(newEmail);
   };    
   return (
-    <div>
+    <div> 
       <NitinChild changeEmail={changeEmail} />
       <p>this is my {email}</p>
     </div>

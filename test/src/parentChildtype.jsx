@@ -7,27 +7,28 @@ export const ParentChildType = () => {
     uEmail: "@gmail.com",
     uNumber: "123",
   });
-  const incomingData = {
-    vName: "NITIN",
-    vEmail: "NITIN@gmail.com",
-    vNumber: "321",
+
+  const takeDetails = (updatedDetails) => {
+    setDetails((prevDetails) => ({
+      ...prevDetails,
+      ...updatedDetails,
+    }));
   };
-    const takeDetails = (incomingData) => {
-        setDetails(setDetails.uName = incomingData.vName);    
-        setDetails(details.uEmail = incomingData.vEmail);    
-        setDetails(details.uNumber = incomingData.vNumber);    
-  }
-  
+  // const takeDetails = (updatedDetails) => {
+  //   setDetails(
+  //     details.uName = updatedDetails.uName;
+  //     details.uName = updatedDetails.uName;
+  //     details.uName = updatedDetails.uName;
+  //   )
+  // };
+
   return (
     <div>
       <p>{details.uName}</p>
       <p>{details.uEmail}</p>
       <p>{details.uNumber}</p>
-      <ChildParentType takeDetails = {takeDetails} />
+
+      <ChildParentType takeDetails={takeDetails} />
     </div>
   );
 };
-
-
-
-// nitin
