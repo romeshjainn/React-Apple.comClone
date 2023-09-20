@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const EgChild = ({ updateProps }) => {
+  const [block, setBlock] = useState("none")
   const updateName = (e) => {
     updateProps({ ...updateProps, uName: e.target.value });
   };
@@ -11,12 +12,16 @@ export const EgChild = ({ updateProps }) => {
     updateProps({ ...updateProps, uNumber: e.target.value });
   };
   const displayBlock = () => {
-    let para = document.getElementById("para");
-    para.style.display = "block";
+    setBlock("block");
   };
+  // const displayBlock = () => {
+  //   let para = document.getElementById("para");
+  //   para.style.display = "block";
+  // };
   return (
     <div>
-      <div id="para" style={{ display: "none" }}>
+      <div id="para" style={{ display: block }}>
+      {/* <div id="para" style={{ display: "none" }}> */}
         <input type="text" placeholder="name" onChange={updateName} />
         <input type="email" placeholder="email" onChange={updateEmail} />
         <input type="number" placeholder="number" onChange={updateNumber} />
