@@ -21,12 +21,14 @@ import { ParentHidden } from "./parentHidden";
 import { ParentChildType } from "./parentChildtype";
 import { NitinParent } from "./nitinParent";
 import { EgParent } from "./egParent";
+import ProductList from "./apiFetch";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <div style={{ border: "2px solid red" }}>
-      <EgParent />
+      <ProductList />
     </div>
+    <EgParent />
     <NitinParent />
     <ParentChildType />
     <UpComp />
