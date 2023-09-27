@@ -1,0 +1,93 @@
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import {
+  StyleSheet,
+  Text,
+  View,
+  SafeAreaView,
+  TouchableOpacity,
+} from "react-native";
+
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+
+// Define EnterManuallyPage
+function EnterManuallyPage() {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Text style={styles.headerText}>Enter Manually Page</Text>
+    </SafeAreaView>
+  );
+}
+
+const Stack = createStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Main">
+        <Stack.Screen
+          name="Main"
+          component={MainPage}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen name="EnterManually" component={EnterManuallyPage} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+
+// Define MainPage
+function MainPage({ navigation }) {
+  return (
+    <SafeAreaView style={styles.container}>
+      <StatusBar style="auto" backgroundColor="#0197a6" />
+      <View style={styles.headerContainer}>
+        <Text style={styles.headerText}>RJ QR Scanner</Text>
+      </View>
+      <TouchableOpacity
+        onPress={() => navigation.navigate("EnterManually")}
+        style={styles.enterManuallyButton}
+      >
+        <Text style={styles.enterManuallyText}>Go to Enter Manually Page</Text>
+      </TouchableOpacity>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    backgroundColor: "#fff",
+  },
+  headerContainer: {
+    padding: 10,
+    width: "100%",
+    paddingLeft: 15,
+    backgroundColor: "#0197a6",
+    height: 60,
+    marginTop: 40,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  headerText: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "white",
+  },
+  enterManuallyButton: {
+    backgroundColor: "#0197a6",
+    padding: 15,
+    width: "50%",
+    alignItems: "center",
+    borderRadius: 5,
+    marginTop: 10,
+    fontSize: 13,
+  },
+  enterManuallyText: {
+    color: "white",
+    fontWeight: "bold",
+  },
+});

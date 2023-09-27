@@ -1,0 +1,36 @@
+        onPress={() => navigation.navigate("EnterManually")}
+TouchableOpacity
+
+
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+
+
+
+100% width
+
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+
+const ParentComponent = () => {
+  return (
+    <View style={styles.parentContainer}>
+      <View style={styles.child}></View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  parentContainer: {
+    flex: 1, // This ensures the parent takes up the entire available space
+    alignItems: 'center', // You can adjust alignment as needed
+    justifyContent: 'center', // You can adjust alignment as needed
+  },
+  child: {
+    width: '100%', // This makes the child take up 100% of the parent's width
+    height: 50, // You can adjust the height as needed
+    backgroundColor: 'blue', // You can set the background color as needed
+  },
+});
+
+export default ParentComponent;
